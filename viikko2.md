@@ -2,6 +2,10 @@
 
 ### Kirjoitan logiin onnistuneen ja epäonnistuneen komennon 
 
-"mkdir koirakuvat" luo uuden hakemiston nimeltä "koirakuvat".
+"mkdir koirakuvat" komento luo uuden hakemiston nimeltä "koirakuvat".
 
-"makedirectory" ei luo mitään
+"mkdir Music" komento epäonnistuu koska Music hakemisto on jo olemassa eikä se voi luoda uutta saman nimistä hakemistoa.
+
+### Asennan yhdellä komentorivillä suodikkiohjelmani linuxiin
+
+sudo apt install steam
