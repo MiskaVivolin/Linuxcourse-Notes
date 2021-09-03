@@ -2,7 +2,7 @@
 
 Tällä viikolla varasin enemmän aikaa viikon tehtäviin ja aloitin heti tiistaina. Tutustuin parin youtube videon avulla linux logien lukemiseen jolla pääsin hyvin alkuun. Kävin läpi syslogia auth.logia ja user.logia sekä availin niitä eri tavoilla kuten tail- cat- ja less komennoilla.
 
-### Kirjoitan logiin onnistuneen ja epäonnistuneen komennon 
+## Kirjoitan logiin onnistuneen ja epäonnistuneen komennon 
 
 "echo "Hello world" | systemd-cat" komento luo syslogiin 3.9.2021 kello 17:19:37 onnistuneesti tekstin "Hello World".
 
@@ -17,7 +17,7 @@ Kirjottaessani sudo salasanan väärin saan auth.logiin viestin:
 
 virhe on 3.9.2021 kello 17:33:28 tehty. authentication failure tarkoittaa että salasana on väärin. ruser on käyttäjä joka yritti kirjautua ja user tarkoittaa varmaan samaa.
 
-### Asennan yhdellä komentorivillä suosikkiohjelmani linuxiin
+## Asennan yhdellä komentorivillä suosikkiohjelmani linuxiin
 
 Suosikkiohjelmani Steamin asensin katsomalla ohjeita sivulta https://linuxhint.com/install-steamos-on-ubuntu/.
 
@@ -30,14 +30,12 @@ Yritin silti asentaa Steamin komennolla sudo apt install steam, mutta asennus ei
 ![image](https://user-images.githubusercontent.com/78149945/132030712-dd9c61f1-a5dc-46dc-a009-245ae8c6f7f9.png)
 
 
-### Asennan komentokehotteen paketinhallinnasta kolme itselleni uutta komentorivillä toimivaa ohjelmaa
+## Asennan komentokehotteen paketinhallinnasta kolme itselleni uutta komentorivillä toimivaa ohjelmaa
 
-Google Chromen ohjeet asennukseen löysin linuxize.com sivulta. (https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-debian-9/)
+Löytääkseni ohjelmia asennettavaksi käytin sivustoa: https://linuxhint.com/100_best_ubuntu_apps/.
 
-Asennusta varten tarvitsin wget lisäosan jonka asensin komennolla: sudo apt-get install wget
+### Synaptic
 
-Ohjeiden mukaisesti latasin ensin Chromen komennolla: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-
-
+Asensin ohjelman Synaptic komennolla: sudo apt-get install synaptic. Synaptic on paketinhallintatyökalu, josta voin hakea vaikka web servereitä ja tarkastella niiden tietoja.
 
 
