@@ -38,4 +38,10 @@ Löytääkseni ohjelmia asennettavaksi käytin sivustoa: https://linuxhint.com/1
 
 Asensin ohjelman Synaptic komennolla: sudo apt-get install synaptic. Synaptic on paketinhallintatyökalu, josta voin hakea vaikka web servereitä ja tarkastella niiden tietoja.
 
+### Skype
 
+Asensin ohjelman Skype komennolla: sudo snap install skype. Skype on ohjelma jolla voi soittaa tai lähettää viestejä muille skype käyttäjille. Valitettavasti asennuksessa menee jotain pieleen. 
+
+![image](https://user-images.githubusercontent.com/78149945/132033562-7914a9e3-d1e2-4d35-83d3-f45deb5e10d1.png)
+
+###
