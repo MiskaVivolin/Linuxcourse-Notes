@@ -17,6 +17,27 @@ Kirjottaessani sudo salasanan väärin saan auth.logiin viestin:
 
 virhe on 3.9.2021 kello 17:33:28 tehty. authentication failure tarkoittaa että salasana on väärin. ruser on käyttäjä joka yritti kirjautua ja user tarkoittaa varmaan samaa.
 
-### Asennan yhdellä komentorivillä suodikkiohjelmani linuxiin
+### Asennan yhdellä komentorivillä suosikkiohjelmani linuxiin
 
-sudo apt install steam
+Suosikkiohjelmani Steamin asensin katsomalla ohjeita sivulta https://linuxhint.com/install-steamos-on-ubuntu/.
+
+Steamin asennusta varten pitää tarkistaa että multiverse repository on päällä komennolla: sudo add-apt-repository multiverse
+
+Valitettavasti sain virheilmoituksen: "sudo add-apt: command not found".
+
+Yritin silti asentaa Steamin komennolla sudo apt install steam, mutta asennus ei onnistunut.
+
+![image](https://user-images.githubusercontent.com/78149945/132030712-dd9c61f1-a5dc-46dc-a009-245ae8c6f7f9.png)
+
+
+### Asennan komentokehotteen paketinhallinnasta kolme itselleni uutta komentorivillä toimivaa ohjelmaa
+
+Google Chromen ohjeet asennukseen löysin linuxize.com sivulta. (https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-debian-9/)
+
+Asennusta varten tarvitsin wget lisäosan jonka asensin komennolla: sudo apt-get install wget
+
+Ohjeiden mukaisesti latasin ensin Chromen komennolla: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+
+
+
