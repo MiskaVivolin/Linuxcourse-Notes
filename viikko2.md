@@ -52,7 +52,11 @@ Telegramin asennus onnistui terminaalissa
 
 ![image](https://user-images.githubusercontent.com/78149945/132122347-4ad86d75-6358-4fb7-8d51-200c454bb56f.png)
 
-En kuitenkaan löydä telegramia application finderista jostain syystä joten en pääse testaamaan sitä.
+En kuitenkaan löydä telegramia application finderista jostain syystä joten en pääse testaamaan sitä. En löydä ratkaisua, joten koitan löytää vastaavan ohjelman linuxille.
+
+### Pigbin
+
+Aseinsin Pigbinin komennolla: sudo apt-get install pidgin. Asennus onnistui ilman ongelmia ja ohjelma toimii normaalisti. Pigbinin avulla voin yhdellä ohjelmalla kirjautua sisään useampaan instant messaging ohjelmaan kuten esim. Google talk, IRC jne.
 
 ## Lähdeviitteet
 
