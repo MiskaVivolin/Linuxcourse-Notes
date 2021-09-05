@@ -1,6 +1,6 @@
 # Linux viikko 2 tehtäväraportti
 
-Tällä viikolla varasin enemmän aikaa viikon tehtäviin ja aloitin heti tiistaina. Tutustuin parin youtube videon avulla linux logien lukemiseen jolla pääsin hyvin alkuun. Kävin läpi syslogia auth.logia ja user.logia sekä availin niitä eri tavoilla kuten tail- cat- ja less komennoilla.
+Tällä viikolla varasin enemmän aikaa viikon tehtäviin ja aloitin heti tiistaina. Tutustuin parin youtube videon avulla linux logien lukemiseen jolla pääsin hyvin alkuun. Kävin läpi syslogia auth.logia ja user.logia sekä availin niitä eri tavoilla kuten tail- cat- ja less komennoilla. Tutustuin linuxiin ja tein tehtäviä arkipäivisin joka päivä ja aikaa meni yhteensä noin 6-8 tuntia.
 
 ## Kirjoitan logiin onnistuneen ja epäonnistuneen komennon 
 
@@ -8,7 +8,7 @@ Tällä viikolla varasin enemmän aikaa viikon tehtäviin ja aloitin heti tiista
 
 ![image](https://user-images.githubusercontent.com/78149945/132023500-3ae6ea1b-ed9d-4de1-b5be-2b6a4278846a.png)
 
-systemd-cat komento luo syslogiin tarkasteltavaksi viestin.
+Komento on 3.9.2021 kello 17:19:37 tehty. systemd-cat komento luo syslogiin tarkasteltavaksi viestin.
 
 
 Kirjottaessani sudo salasanan väärin saan auth.logiin viestin: 
@@ -44,4 +44,22 @@ Asensin ohjelman Skype komennolla: sudo snap install skype. Skype on ohjelma jol
 
 ![image](https://user-images.githubusercontent.com/78149945/132033562-7914a9e3-d1e2-4d35-83d3-f45deb5e10d1.png)
 
-###
+Koin useiden ohjelmien kohdalla ongelmia asennuksessa, joista yleisin oli error: “E: Unable to locate package”
+
+### Telegram
+
+Telegramin asennus onnistui terminaalissa
+
+![image](https://user-images.githubusercontent.com/78149945/132122347-4ad86d75-6358-4fb7-8d51-200c454bb56f.png)
+
+En kuitenkaan löydä telegramia application finderista jostain syystä joten en pääse testaamaan sitä.
+
+## Lähdeviitteet
+
+Tero Karvinen. Linux Palvelimet ict4tn021 3016 - Autumn 2021. https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/. Luettu: 31.8.2021
+
+Swapnil Tirthakar. Linuxhints, 100 best Ubuntu apps. https://linuxhint.com/100_best_ubuntu_apps/ Luettu: 3.9.2021
+
+Swapnil Tirthakar. Linuxhints, How to Install Steam in Ubuntu 20.04. https://linuxhint.com/install-steamos-on-ubuntu/ Luettu: 3.9.2021
+
+Jack Wallen. Linux.com, Viewing Linux Logs from the Command Line (18.7.2018). https://www.linux.com/topic/desktop/viewing-linux-logs-command-line/. Luettu 31.8.2021
