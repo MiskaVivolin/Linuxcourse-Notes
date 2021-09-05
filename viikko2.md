@@ -1,6 +1,6 @@
 # Linux viikko 2 tehtäväraportti
 
-Tällä viikolla varasin enemmän aikaa viikon tehtäviin ja aloitin heti tiistaina. Tutustuin parin youtube videon avulla linux logien lukemiseen jolla pääsin hyvin alkuun. Kävin läpi syslogia auth.logia ja user.logia sekä availin niitä eri tavoilla kuten tail- cat- ja less komennoilla. Tutustuin linuxiin ja tein tehtäviä arkipäivisin joka päivä ja aikaa meni yhteensä noin 6-8 tuntia.
+Tällä viikolla varasin enemmän aikaa viikon tehtäviin ja aloitin heti tiistaina. Tutustuin parin youtube videon avulla linux logien lukemiseen jolla pääsin hyvin alkuun. Kävin läpi syslogia, auth.logia ja user.logia sekä availin niitä eri tavoilla kuten tail- cat- ja less komennoilla. Tutustuin linuxiin ja tein tehtäviä arkipäivisin joka päivä ja aikaa meni yhteensä noin 6-8 tuntia. Tehtävien tekemistä varten jouduin miettimään ja etsimään apua netistä. Joidenkin ohjelmien asennuksessa koin ongelmia, joihin en löytänyt ratkaisuja.
 
 ## Kirjoitan logiin onnistuneen ja epäonnistuneen komennon 
 
