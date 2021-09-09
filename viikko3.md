@@ -1,1 +1,1 @@
-# Linux palvelimet viikko 3 tehtäväraportti
+# Linux viikko 3 tehtäväraportti
