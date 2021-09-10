@@ -65,3 +65,4 @@ Yritin vaihtaa oletussivua digitalocean.com sivulla olevien neuvojen mukaan. Tei
 
 ![image](https://user-images.githubusercontent.com/78149945/132858817-920a426b-3aaa-4ab4-9311-e643d49175df.png)
 
+Valitettavasti se ei toiminut ja saan silti Apache2 Debian Default Pagen oletuksena.
