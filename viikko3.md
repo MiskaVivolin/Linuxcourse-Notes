@@ -39,4 +39,20 @@ Lopuksi käyn poistamassa virheen asetustiedostosta, tallennan sen ja käynnist�
 
 ### i) Kuinka monta eri HTTP Status:ta (200, 404, 500…) saat aiheutettua lokeihin? Selitä, miten aiheutit tilanteet ja analysoi yksi rivi kustakin statuksesta.
 
+Tein onnistuneen http statuksen samalla tavalla kuin aikaisemmin:
+![image](https://user-images.githubusercontent.com/78149945/132845856-d2cf065b-e324-4385-937e-529d008c078d.png)
+
+Epäonnistuneen tein myös samoin kun b) tehtävässä:
+![image](https://user-images.githubusercontent.com/78149945/132845957-313ec9ec-5506-4370-9a36-f2011e067667.png)
+
+Huomasin logeissani error 408 ja googletin mistä se johtuu. Error 408 tulee kun error 404 ikkuna on ollut hetken aikaa käynnissä ja selain haluaisi sulkea sen.
+
+![image](https://user-images.githubusercontent.com/78149945/132847993-8c815501-c8db-4115-a2b2-0da16bb7c8f7.png)
+
+
+Sain tänään jossain vaiheessa http error 304, mutta en tiedä miten se tuli tai miten sen aiheuttaisin tarkoituksella
+![image](https://user-images.githubusercontent.com/78149945/132846342-43cf02f8-e1e0-4ffe-999f-f6349c5f7906.png)
+
+Error 304 logitietoja tarkastellessa huomaa että ne näyttävät täysin samalta 404 erroreihin verrattuna. Sivulla Airbrake.io sanotaan 304 errorin ilmaisevan sitä että pyydettyä resurssia ei ole muokattu viimeisen siirron jälkeen, joten sitä ei tarvitse uudelleenlähettää sivustolle.
+
 
