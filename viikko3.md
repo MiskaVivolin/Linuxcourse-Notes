@@ -36,3 +36,7 @@ Navigoin /var/log hakemistoon ja avaan syslogin komennolla "sudo less /var/log/s
 Apache selvästi yrittää käynnistyä, mutta invalid command eli virhekirjoitus pilaa kaiken. Tämän jälkeen apache http server pysähtyy ja yrittää käynnistyä vielä, mutta sekin tietenkin epäonnistuu. Lopuksi tulee vain ilmoitus "Failed to start The Apache HTTP server"
 
 Lopuksi käyn poistamassa virheen asetustiedostosta, tallennan sen ja käynnistän onnistuneesti apachen uudelleen.
+
+### i) Kuinka monta eri HTTP Status:ta (200, 404, 500…) saat aiheutettua lokeihin? Selitä, miten aiheutit tilanteet ja analysoi yksi rivi kustakin statuksesta.
+
+
