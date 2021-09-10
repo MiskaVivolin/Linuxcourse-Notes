@@ -51,8 +51,13 @@ Huomasin logeissani error 408 ja googletin mistä se johtuu. Error 408 tulee kun
 
 
 Sain tänään jossain vaiheessa http error 304, mutta en tiedä miten se tuli tai miten sen aiheuttaisin tarkoituksella
-![image](https://user-images.githubusercontent.com/78149945/132846342-43cf02f8-e1e0-4ffe-999f-f6349c5f7906.png)
+![image](https://user-images.githubusercontent.com/78149945/132846342-43cf02f8-e1e0-4ffe-999f-f6349c5f7906.png)S
 
 Error 304 logitietoja tarkastellessa huomaa että ne näyttävät täysin samalta 404 erroreihin verrattuna. Sivulla Airbrake.io sanotaan 304 errorin ilmaisevan sitä että pyydettyä resurssia ei ole muokattu viimeisen siirron jälkeen, joten sitä ei tarvitse uudelleenlähettää sivustolle.
 
+### m) Vaihda Apachen oletussivu. Eli laita palvelimen etusivulla (ilman tildeä) näkyvä sivu niin, että alkuperäinen on jonkun käyttäjän kotihakemistossa ja voit muokata sitä ilman pääkäyttäjän oikeuksia.
+
+Yritin tehdä uuden 
+
+![image](https://user-images.githubusercontent.com/78149945/132852313-f1bc6e58-92c7-4e01-965d-62b21807278a.png)
 
