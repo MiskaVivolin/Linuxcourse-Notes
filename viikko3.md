@@ -57,7 +57,11 @@ Error 304 logitietoja tarkastellessa huomaa että ne näyttävät täysin samalt
 
 ### m) Vaihda Apachen oletussivu. Eli laita palvelimen etusivulla (ilman tildeä) näkyvä sivu niin, että alkuperäinen on jonkun käyttäjän kotihakemistossa ja voit muokata sitä ilman pääkäyttäjän oikeuksia.
 
-Yritin tehdä uuden 
+Menin ensin hakemistoon "/var/www" ja tein uuden tekstitiedoston komennolla "sudo nano uusi.html"
 
-![image](https://user-images.githubusercontent.com/78149945/132852313-f1bc6e58-92c7-4e01-965d-62b21807278a.png)
+![image](https://user-images.githubusercontent.com/78149945/132858445-8328d42c-8704-4704-bf2e-32426bbdd646.png)
+
+Yritin vaihtaa oletussivua digitalocean.com sivulla olevien neuvojen mukaan. Tein uuden tekstitiedoston osoitteeseen /etc/apache2/sites-available/yourdomain.conf. Nimesin rivit uudelleen ja muutin DocumentRoot rivin oman html sivuni osoitteeksi.
+
+![image](https://user-images.githubusercontent.com/78149945/132858817-920a426b-3aaa-4ab4-9311-e643d49175df.png)
 
