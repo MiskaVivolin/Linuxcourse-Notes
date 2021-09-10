@@ -18,7 +18,11 @@ Kirjoitin hakukoneeseen onnistuneen sivunlatauksen "localhost/~miskav" ja epäon
 
 ![image](https://user-images.githubusercontent.com/78149945/132829213-b5acfa14-4496-42fc-821d-e3f79a67cd51.png)
 
+Palvelin sai onnistuneesti 10.8.2021 klo 11:21:44 HTTP GET pyynnön sivulta localhost/~miskav. Web-selaimena oli Google Chrome versio 92.0.4515.159 64-bittisellä linuxilla. En ymmärrä miksi logiin tulostuu mozilla, safari ja apple webkit vaikka käytän Chromea.
+
 ![image](https://user-images.githubusercontent.com/78149945/132829372-350f41b8-c192-476d-bb6a-26ad5a818d2a.png)
+
+Palvelin epäonnistui 10.8.2021 klo 11:21:56 HTTP GET pyynnössä sivulla localhost/~miskavgg. URL-osoite oli siis kirjoitettu väärin. Web-selaimena oli Google Chrome versio 92.0.4515.159 64-bittisellä linuxilla. 
 
 ### d) Tee virhe johonkin Apachen asetustiedostoon, etsi ja analysoi tuo rivi. Etsimiseen sopivat esimerkiksi Apachen omat lokit, syslog sekä ‘apache2ctl configtest’.
 
