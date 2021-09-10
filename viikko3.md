@@ -66,3 +66,18 @@ Yritin vaihtaa oletussivua digitalocean.com sivulla olevien neuvojen mukaan. Tei
 ![image](https://user-images.githubusercontent.com/78149945/132858817-920a426b-3aaa-4ab4-9311-e643d49175df.png)
 
 Valitettavasti se ei toiminut ja saan silti Apache2 Debian Default Pagen oletuksena.
+
+## Yhteenveto
+
+Tehtäviin meni noin 6 tuntia ja opin niistä taas paljon uutta. Ei ollut tarvetta tehdä vaikeampia tehtäviä kun osaamiseni ei ole vielä niin edistynyttä.
+
+## Lähteet
+
+Tero Karvinen. Linux Palvelimet ict4tn021 3016 - Autumn 2021. https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/. Luettu: 10.9.2021
+
+DigitalOcean. How do i remove Apache2 Ubuntu Default Page? 2021 https://www.digitalocean.com/community/questions/how-do-i-remove-apache2-ubuntu-default-page Luettu: 10.9.2021
+
+developer.mozilla.org. 408 Request Timeout. 2021 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408
+Luettu: 10.9.2021
+
+Airbrake. 304 Not Modified: What It Is and How to Fix It. December 7, 2017 https://airbrake.io/blog/http-errors/304-not-modified Luettu: 10.9.2021
