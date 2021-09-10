@@ -14,7 +14,7 @@ ensin aktivoin käyttäjähakemiston apachen käyttöön, sitten restarttaan apa
 
 ### b) Surffaa oman palvelimesi weppisivuja. Etsi Apachen lokista esimerkki onnistuneesta (200 ok) sivulatauksesta ja epäonnistuneesta (esim 404 not found) sivulatauksesta. Analysoi rivit.
 
-
+Kirjoitin hakukoneeseen onnistuneen sivunlatauksen "localhost/~miskav" ja epäonnistuneen sivunlatauksen "localhost/~miskavgg" jonka jälkeen navigoin logeihin (/var/log). Koitan päästä  apache2 hakemiston sisään, mutta saan viestin: permission denied. Etsin googlesta mitä logeja apache2 hakemisto sisältää. Teen tämän jälkeen komennon "sudo cat apache2/access.log" josta löydän oikeat logit.
 
 ![image](https://user-images.githubusercontent.com/78149945/132829213-b5acfa14-4496-42fc-821d-e3f79a67cd51.png)
 
@@ -30,3 +30,5 @@ Navigoin /var/log hakemistoon ja avaan syslogin komennolla "sudo less /var/log/s
 ![image](https://user-images.githubusercontent.com/78149945/132834135-9ad70098-7dc7-4868-ae6b-656d74f56fcb.png)
 
 Apache selvästi yrittää käynnistyä, mutta invalid command eli virhekirjoitus pilaa kaiken. Tämän jälkeen apache http server pysähtyy ja yrittää käynnistyä vielä, mutta sekin tietenkin epäonnistuu. Lopuksi tulee vain ilmoitus "Failed to start The Apache HTTP server"
+
+Lopuksi käyn poistamassa virheen asetustiedostosta, tallennan sen ja käynnistän onnistuneesti apachen uudelleen.
