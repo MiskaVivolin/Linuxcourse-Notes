@@ -15,10 +15,11 @@ Seuraavaksi teen komennolla `sudo adduser jorma` uuden käyttäjän ja tälle hy
 
 ![image](https://user-images.githubusercontent.com/78149945/133277153-66fc3345-ed16-48fd-9bd9-b5fffb0f3dcd.png)
 
-Seuraavaksi syötän komennon sudo usermod --lock root ja annan käyttäjän salasanan. syötän komennon sudo nano /etc/ssh/sshd_config ja muutan PermitRootLogin ´yes´ arvon ´no´ arvoksi. Tallennan tiedoston ja poistun.
+Seuraavaksi syötän komennon sudo usermod --lock root ja annan käyttäjän salasanan. syötän komennon sudo nano /etc/ssh/sshd_config ja muutan PermitRootLogin `yes` arvon `no` arvoksi.
 
 ![image](https://user-images.githubusercontent.com/78149945/133278927-f1b447ac-a688-434a-ae07-e0ede9f57f49.png)
 
+Tallennan tiedoston ja poistun jonka jälkeen syötän komennon sudo service ssh restart. Lopuksi syötän varmuuden vuoksi komennot `sudo apt-get update` ja `sudo apt-get upgrade`.
 
 ### c) Laita koneellesi Apache-weppipalvelin. Korvaa testisivu. Laita käyttäjän kotisivut toimimaan. Kokeile eri koneelta, esim. kännykällä, että sivut toimivat. Vinkki: tee kotisivut normaalina käyttäjänä public_html/ alle, opettelemme "name based virtual hosting" myöhemmin.
 
