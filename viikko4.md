@@ -14,6 +14,7 @@ install ufw` asensin ufw:n. syötän komennot `sudo ufw allow 22/tcp` ja `sudo u
 Seuraavaksi teen komennolla `sudo adduser jorma` uuden käyttäjän ja tälle hyvän salasanan. En anna tarkempaa infoa käyttäjälle ja painan `y`. Lisään uuden käyttäjän sudoon komennolla `sudo adduser jorma sudo`. Annan vielä käyttäjälle admin oikeudet komennolla `sudo adduser jorma adm`. Suoritan komennon `ssh jorma@178.62.212.176` ja annan käyttäjän salasanan, jolloin pääsen käyttäjällä palvelimelle. 
 
 ![image](https://user-images.githubusercontent.com/78149945/133277153-66fc3345-ed16-48fd-9bd9-b5fffb0f3dcd.png)
+
 Seuraavaksi syötän komennon sudo usermod --lock root ja annan käyttäjän salasanan. Menen osoitteeseen /etc/ssh/sshd_config ja muutan PermitRootLogin ´yes´ arvon ´no´ arvoksi.
 
 ![image](https://user-images.githubusercontent.com/78149945/133278927-f1b447ac-a688-434a-ae07-e0ede9f57f49.png)
