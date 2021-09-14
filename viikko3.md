@@ -2,6 +2,7 @@
 
 ### a) Asenna Apache, laita käyttäjien kotisivut (http://example.com/~tero) toimimaan. Testaa esimerkkikotisivulla.
 Asensimme tunnilla apachen komennoilla:
+
 ![image](https://user-images.githubusercontent.com/78149945/132819195-33663e01-1163-4b1f-bc0a-bd9d1aed6615.png)
 
 Ensin asensin apachen, sitten käynnistin sen ja sen jälkeen katson komentorivillä localhostin sisällön.
