@@ -23,4 +23,11 @@ Tallennan tiedoston ja poistun jonka jälkeen syötän komennon sudo service ssh
 
 ### c) Laita koneellesi Apache-weppipalvelin. Korvaa testisivu. Laita käyttäjän kotisivut toimimaan. Kokeile eri koneelta, esim. kännykällä, että sivut toimivat. Vinkki: tee kotisivut normaalina käyttäjänä public_html/ alle, opettelemme "name based virtual hosting" myöhemmin.
 
+Syötän komennon `sudo apt-get install apache2` ja annan salasanan. Apache asentui onnistuneesti niin käynnistän sen komennolla `sudo systemctl start apache2`. Syötän seuraavaksi komennon `sudo ufw allow 88/tcp` Tarkistan toimiiko sivuni menemällä web browseriin ja antamalla hakukenttään IP osoitteeni. Apachen oletussivu tulee näkymiin, joten menen terminaalissa osoitteeseen `/etc/apache2/sites-available`. Tutkin eri tiedostoja ja tein konfigurointi-tiedostosta uuden kopion komennolla `sudo cp 000-default.conf mywebsite.conf`. Siirryn muokkaamaan uutta tiedostoa komennolla `sudo nano mywebsite.conf`. kirjoitin tekstitiedostoon servername (ip-osoite) ja serveralias (ip-osoite). Asetin myös DocumentRoot kohtaan `/home/jorma/public_html` ja kirjoitin lopuksi `<Directory /home/jorma/public_html> all granted </Directory>`, jolla annoin oikeudet tähän käyttäjähakemistoon. Lopuksi tallensin ja suljin tiedoston. 
+![image](https://user-images.githubusercontent.com/78149945/133593957-c09ab77e-9f59-426e-82ea-ac73f665b58a.png)
+
+Daniel Tarsalainen antoi neuvoa äskeisessä kohdassa, koska koin ongelmia samantyylisessä tehtävässä viime viikolla. Aktivoin vielä nettisivuni komennolla `sudo a2ensite mywebsite.conf`. Menen osoitteeseen `/home/jorma` ja luon hakemiston `public_html`, jonka jälkeen teen sinne uuden tekstitiedoston `sudo nano index.html` komennolla. Kirjoitan testiviestin "MOIIII" ja restarttaan vielä apachen komennolla `sudo systemctl restart apache2`. Kokeilen nyt mennä web browserilla ip-osoitteeseeni ja saan sivuni näkyviin onnistuneesti.
+
+![image](https://user-images.githubusercontent.com/78149945/133594917-2e47c816-f354-4cb9-9439-f7dc464e649d.png)
+
 ### d) Etsi lokeistasi merkkejä murtautumisyrityksistä ja analysoi ne. Vinkki: auth.log.
