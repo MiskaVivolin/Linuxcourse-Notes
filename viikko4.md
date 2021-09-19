@@ -31,3 +31,18 @@ Daniel Tarsalainen antoi neuvoa äskeisessä kohdassa, koska koin ongelmia saman
 ![image](https://user-images.githubusercontent.com/78149945/133594917-2e47c816-f354-4cb9-9439-f7dc464e649d.png)
 
 ### d) Etsi lokeistasi merkkejä murtautumisyrityksistä ja analysoi ne. Vinkki: auth.log.
+
+![image](https://user-images.githubusercontent.com/78149945/133932782-892bef37-d805-4dc7-a8da-8bc92164f62d.png)
+
+19.9 klo 00:18:27 palvelimelle on yritetty päästä IP-osoitteesta 218.92.0.201
+
+![image](https://user-images.githubusercontent.com/78149945/133932912-0ae42289-ca15-4ea0-b200-06f1c490494d.png)
+
+19.9 klo 00:38:18 käyttäjänimi on kirjoitettu väärin tunkeutuessa.
+
+![image](https://user-images.githubusercontent.com/78149945/133932830-d99d714c-617a-48ec-9b3f-3e49713c2b78.png)
+
+19.9 klo 00:35:21 tunnistautuminen on epäonnistunut. 
+
+
+
