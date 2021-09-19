@@ -45,4 +45,10 @@ Daniel Tarsalainen antoi neuvoa äskeisessä kohdassa, koska koin ongelmia saman
 19.9 klo 00:35:21 tunnistautuminen on epäonnistunut. 
 
 
+## Lähteet
+
+Tero Karvinen. Linux Palvelimet ict4tn021 3016 - Autumn 2021. https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/. Luettu: 10.9.2021
+
+
+
 
