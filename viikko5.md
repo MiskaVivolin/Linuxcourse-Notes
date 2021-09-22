@@ -18,3 +18,8 @@ Testaan `curl -H 'Host: pyora.example.com' localhost` komennolla komentorivin ka
 
 ![image](https://user-images.githubusercontent.com/78149945/134191061-3d781fa4-1408-40c2-b82c-7f973ae4007e.png)
 
+### b) Julkinen nimi. Laita julkiselle palvelimellesi julkinen domain-nimi. Käytä oikeaa nimeä (joko vuokrattua tai ilmaispalvelusta). Tee Apachelle Name Based Virtual Host tälle nimelle. Kokeile eri laitteelta (esim. kännykältä), että nimi oikeasti toimii.
+
+Päätin ostaa namecheapistä uuden domainin omalla nimellä miskavivolin.xyz. Mietin aluksi ilmaisia domaineja, mutta luettuani mielipiteitä internetistä päädyin halpaan domainiin namecheapistä. Menin Digitaloceaniin ja lisäsin palvelimelleni uuden domain osoitteen `miskavivolin.xyz`. Menen linux terminaalissa ssh palvelimelle muokkaamaan conf tiedostoa komennolla `sudoedit /etc/apache2/`
+(kuva)
+
