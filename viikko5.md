@@ -24,6 +24,11 @@ Päätin ostaa namecheapistä uuden domainin omalla nimellä miskavivolin.xyz. M
 
 ![image](https://user-images.githubusercontent.com/78149945/134464833-2f57c3fc-ba61-4efe-a365-1225a2cc95fe.png)
 
+Tallennettuani rivit Namecheap sanoi että muutoksessa voi kulua hetki ennen kuin se astuu voimaan. Odotettuani tunnin miskavivolin.xyz näyttää onnistuneesti oman kotisivuni.
+
+![image](https://user-images.githubusercontent.com/78149945/134474848-84246969-f7a8-4c9c-99bd-f8b517296b51.png)
+
+
 ### c) Hello Flask! Tee Python Flask hei maailma kehitysympäristössä. Voit siis käyttää tuotantoon sopimatonta app.run(debug=True) ajoa.
 
 Käytän Terokarvinen.com - Hello Flask - Write a Python Web App ohjeita. Aloitan asentamalla Flaskin terminaalissa `sudo apt-get -y install python3-flask` komennolla. Teen uuden python tiedoston komennolla `nano hello.py`.
@@ -36,4 +41,4 @@ Ajan ohjelman komennolla `python3 hello.py` ja ohjelma suoriutuu onnistuneesti. 
 
 ![image](https://user-images.githubusercontent.com/78149945/134472109-ccd47dd1-c1e4-49ef-90b3-6e56ee3c6182.png)
 
-
+### d) Tuotanto-Flask. Tee tuotantotyyppinen asennus Flaskista käyttäen Apachen WSGI-modulia. Kokeile, että pystyt muokkaamaan koodia ilman sudoa ja saat uuden version käyttöön käynnistämättä Apachea uudelleen. ('touch foo.wsgi')
