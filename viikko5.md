@@ -67,7 +67,7 @@ Ajan komennon curl localhost ja saan `error 404` tulokseksi. Teen uuden tekstiha
 
 ![image](https://user-images.githubusercontent.com/78149945/134497343-c51d3f01-96b4-405b-9b3d-cd23c0fbaeed.png)
 
-Testaan ajaa localhostia komentorivillä ja saan error 500. Teen vielä uuden tiedoston komennolla sudo nano /home/miskawsgi/public_wsgi/hello.py
+Testaan ajaa localhostia komentorivillä ja saan error 500. Teen vielä uuden tiedoston komennolla `sudo nano /home/miskawsgi/public_wsgi/hello.py`
 
 ![image](https://user-images.githubusercontent.com/78149945/134498605-9ae2729e-0026-41e4-99b3-c21f9290bc6d.png)
 
