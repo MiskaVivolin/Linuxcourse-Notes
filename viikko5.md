@@ -55,4 +55,23 @@ Testaan mitä komentoriville tulostuu `curl localhost` komennolla ja saan 403 er
 
 ![image](https://user-images.githubusercontent.com/78149945/134493464-159fbec0-1635-4ca4-967c-23e2db5fdb0b.png)
 
+Ajamalla `groups` komennon en löydä `miskawsgi` ryhmää, mutta näen miskav ryhmän. Kokeilen ajaa komennon `groups miskav` ja saan komentoriville näkyviin miskawsgi.
+
+![image](https://user-images.githubusercontent.com/78149945/134494663-2094ee3c-142d-43e9-8ac0-5b41c10f49a9.png)
+
+Seuraavaksi teen uuden hakemiston komennolla `sudo mkdir /home/miskawsgi/public_wsgi`. Muutan oikeuksia niin, että kotihakemistoon pääsee ilman sudoa `sudo chown miskawsgi:miskawsgi /home/miskawsgi/public_wsgi`. Muutan oikeuksia myös niin, että kaikki voivat muokata tiedostoja jotka kuuluvat miskawsgi ryhmään.
+
+![image](https://user-images.githubusercontent.com/78149945/134495749-2c2d387e-fd42-4613-a582-c07874727985.png)
+
+Ajan komennon curl localhost ja saan `error 404` tulokseksi. Teen uuden tekstihakemiston komennolla nano /home/miskawsgi/public_wsgi, mutta en kuitenkaan saa kirjoitusoikeuksia joten suoritan saman komennon sudolla. Kirjoitan sivulle Terokarvinen.com mallin mukaan ja tallennan tiedoston.
+
+![image](https://user-images.githubusercontent.com/78149945/134497343-c51d3f01-96b4-405b-9b3d-cd23c0fbaeed.png)
+
+Testaan ajaa localhostia komentorivillä ja saan error 500. Teen vielä uuden tiedoston komennolla sudo nano /home/miskawsgi/public_wsgi/hello.py
+
+![image](https://user-images.githubusercontent.com/78149945/134498605-9ae2729e-0026-41e4-99b3-c21f9290bc6d.png)
+
+Kokeilen komentorivillä ajaa localhostin ja saan tulokseksi `Hello world!` Kokeilen vielä web browserissa localhostia ja saan saman tulosteen.
+
+![image](https://user-images.githubusercontent.com/78149945/134498827-a4173274-6686-4bce-911f-0068ee85a57c.png)
 
