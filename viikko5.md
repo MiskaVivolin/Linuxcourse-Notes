@@ -81,10 +81,10 @@ Tein tehtäviä noin 6-7 tuntia eikä niiden kanssa esiintynyt suurempia ongelmi
 
 ### Lähteet
 
-https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/
+Tero Karvinen. Linux Palvelimet ict4tn021 3016. 16-8-2021. https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/ Luettu: 23.9.2021
 
-https://terokarvinen.com/2020/hello-flask-python-web-app/
+Tero Karvinen. Hello Flask - Write a Python Web App. 26-2-2020. https://terokarvinen.com/2020/hello-flask-python-web-app/ Luettu: 23.9.2021
 
-https://terokarvinen.com/2020/deploy-python-flask-to-production/
+Tero Karvinen. Deploy Python Flask to Production. 26-2-2020. https://terokarvinen.com/2020/deploy-python-flask-to-production/ Luettu: 23.9.2021
 
-https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars
+DigitalOcean. Josh Barnett, Kathleen Juell. How To Point to DigitalOcean Nameservers From Common Domain Registrars. 22-2-2018 https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars Luettu: 23.9.2021
