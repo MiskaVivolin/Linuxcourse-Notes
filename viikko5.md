@@ -26,3 +26,14 @@ Päätin ostaa namecheapistä uuden domainin omalla nimellä miskavivolin.xyz. M
 
 ### c) Hello Flask! Tee Python Flask hei maailma kehitysympäristössä. Voit siis käyttää tuotantoon sopimatonta app.run(debug=True) ajoa.
 
+Käytän Terokarvinen.com - Hello Flask - Write a Python Web App ohjeita. Aloitan asentamalla Flaskin terminaalissa `sudo apt-get -y install python3-flask` komennolla. Teen uuden python tiedoston komennolla `nano hello.py`.
+
+![image](https://user-images.githubusercontent.com/78149945/134471404-a07a1946-a287-4db9-bb38-62ba1affe88b.png)
+
+Ajan ohjelman komennolla `python3 hello.py` ja ohjelma suoriutuu onnistuneesti. Komentoriville tulostuu osoite jossa näkyy ohjelman tuloste. Siirtymällä osoitteeseen näkyy teksti `Hello world` onnistuneesti.
+
+![image](https://user-images.githubusercontent.com/78149945/134472028-d53f48df-76af-479a-9643-72ce5391b707.png)
+
+![image](https://user-images.githubusercontent.com/78149945/134472109-ccd47dd1-c1e4-49ef-90b3-6e56ee3c6182.png)
+
+
