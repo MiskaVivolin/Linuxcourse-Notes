@@ -24,3 +24,5 @@ Päätin ostaa namecheapistä uuden domainin omalla nimellä miskavivolin.xyz. M
 
 ![image](https://user-images.githubusercontent.com/78149945/134464833-2f57c3fc-ba61-4efe-a365-1225a2cc95fe.png)
 
+### c) Hello Flask! Tee Python Flask hei maailma kehitysympäristössä. Voit siis käyttää tuotantoon sopimatonta app.run(debug=True) ajoa.
+
