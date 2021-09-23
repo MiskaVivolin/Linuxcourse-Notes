@@ -86,3 +86,5 @@ https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-301
 https://terokarvinen.com/2020/hello-flask-python-web-app/
 
 https://terokarvinen.com/2020/deploy-python-flask-to-production/
+
+https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars
