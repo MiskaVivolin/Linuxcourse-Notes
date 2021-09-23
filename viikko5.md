@@ -43,6 +43,16 @@ Ajan ohjelman komennolla `python3 hello.py` ja ohjelma suoriutuu onnistuneesti. 
 
 ### d) Tuotanto-Flask. Tee tuotantotyyppinen asennus Flaskista käyttäen Apachen WSGI-modulia. Kokeile, että pystyt muokkaamaan koodia ilman sudoa ja saat uuden version käyttöön käynnistämättä Apachea uudelleen. ('touch foo.wsgi')
 
-Aloitan tehtävän uuden käyttäjän luomisella komennolla `sudo adduser miskawsgi` ja asetan uuden hyvän salasanan. En laita user information osiossa mitään tietoja ja vahvistan käyttäjän luomisen. Otan sisäänkirjautumisen pois käytöstä komennolla `sudo usermod --lock miskawsgi`. Lisään perus käyttäjäni miskawsgi ryhmään komennolla `sudo adduser $(whoami) miskawsgi`.
+Aloitan tehtävän uuden käyttäjän luomisella komennolla `sudo adduser miskawsgi` ja asetan uuden hyvän salasanan. En laita user information osiossa mitään tietoja ja vahvistan käyttäjän luomisen. Otan sisäänkirjautumisen pois käytöstä komennolla `sudo usermod --lock miskawsgi`. Lisään perus käyttäjäni miskawsgi ryhmään komennolla `sudo adduser $(whoami) miskawsgi`. Teen uuden conf tiedoston `miskawsgi.conf` osoitteeseen `/etc/apache2/sites-available/` jossa käytän mallina terokarvinen.com wsgi pohjaa ja muutan terowsgi:t miskawsgi:ksi.
 
-![image](https://user-images.githubusercontent.com/78149945/134479269-54b133e5-9126-457b-9688-1de1a0cdd0ec.png)
+![image](https://user-images.githubusercontent.com/78149945/134480299-09d78d4e-94d7-4e95-a110-a3f3b095feb1.png)
+
+Tallennettuani tiedoston aktivoin sen komennolla `sudo a2ensite miskawsgi` ja poistan aiemmat conf tiedostot käytöstä komennolla `sudo a2dissite miskav.com` ja `sudo a2dissite 000-default.conf`. Asennan wsgi moduulin komennolla `sudo apt-get -y install libapache2-mod-wsgi-py3` ja restarttaan apachen. Lopuksi ajan vielä configtestin komennolla `apache2ctl configtest` ja saan varoituksia, mutta syntax näyttää olevan kunnossa.
+
+![image](https://user-images.githubusercontent.com/78149945/134492628-0bac13e7-ec45-485b-85e9-843eefadc97c.png)
+
+Testaan mitä komentoriville tulostuu `curl localhost` komennolla ja saan 403 errorin, ilmeisesti koska käyttäjälläni ei ole oikeuksia miskawsgi käyttäjään. Ajan myös komennon `tail -1 /var/log/apache2/error.log`
+
+![image](https://user-images.githubusercontent.com/78149945/134493464-159fbec0-1635-4ca4-967c-23e2db5fdb0b.png)
+
+
