@@ -75,3 +75,14 @@ Kokeilen komentorivillä ajaa localhostin ja saan tulokseksi `Hello world!` Koke
 
 ![image](https://user-images.githubusercontent.com/78149945/134498827-a4173274-6686-4bce-911f-0068ee85a57c.png)
 
+### yhteenveto
+
+Tein tehtäviä noin 6-7 tuntia eikä niiden kanssa esiintynyt suurempia ongelmia. Ymmärrän paremmin miten name based virtual hosting ja julkisen palvelimen asentaminen toimii. Flask vaikuttaa myös mielenkiintoiselta.
+
+### Lähteet
+
+https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/
+
+https://terokarvinen.com/2020/hello-flask-python-web-app/
+
+https://terokarvinen.com/2020/deploy-python-flask-to-production/
