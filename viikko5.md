@@ -63,7 +63,7 @@ Seuraavaksi teen uuden hakemiston komennolla `sudo mkdir /home/miskawsgi/public_
 
 ![image](https://user-images.githubusercontent.com/78149945/134495749-2c2d387e-fd42-4613-a582-c07874727985.png)
 
-Ajan komennon curl localhost ja saan `error 404` tulokseksi. Teen uuden tekstihakemiston komennolla nano /home/miskawsgi/public_wsgi, mutta en kuitenkaan saa kirjoitusoikeuksia joten suoritan saman komennon sudolla. Kirjoitan sivulle Terokarvinen.com mallin mukaan ja tallennan tiedoston.
+Ajan komennon curl localhost ja saan `error 404` tulokseksi. Teen uuden tekstihakemiston komennolla `nano /home/miskawsgi/public_wsgi`, mutta en kuitenkaan saa kirjoitusoikeuksia joten suoritan saman komennon sudolla. Kirjoitan sivulle Terokarvinen.com mallin mukaan ja tallennan tiedoston.
 
 ![image](https://user-images.githubusercontent.com/78149945/134497343-c51d3f01-96b4-405b-9b3d-cd23c0fbaeed.png)
 
