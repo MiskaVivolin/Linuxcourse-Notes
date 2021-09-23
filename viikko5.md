@@ -42,3 +42,7 @@ Ajan ohjelman komennolla `python3 hello.py` ja ohjelma suoriutuu onnistuneesti. 
 ![image](https://user-images.githubusercontent.com/78149945/134472109-ccd47dd1-c1e4-49ef-90b3-6e56ee3c6182.png)
 
 ### d) Tuotanto-Flask. Tee tuotantotyyppinen asennus Flaskista käyttäen Apachen WSGI-modulia. Kokeile, että pystyt muokkaamaan koodia ilman sudoa ja saat uuden version käyttöön käynnistämättä Apachea uudelleen. ('touch foo.wsgi')
+
+Aloitan tehtävän uuden käyttäjän luomisella komennolla `sudo adduser miskawsgi` ja asetan uuden hyvän salasanan. En laita user information osiossa mitään tietoja ja vahvistan käyttäjän luomisen. Otan sisäänkirjautumisen pois käytöstä komennolla `sudo usermod --lock miskawsgi`. Lisään perus käyttäjäni miskawsgi ryhmään komennolla `sudo adduser $(whoami) miskawsgi`.
+
+![image](https://user-images.githubusercontent.com/78149945/134479269-54b133e5-9126-457b-9688-1de1a0cdd0ec.png)
