@@ -31,7 +31,7 @@ Kopioin tämänkin skriptin bin hakemistoon komennolla `sudo cp -v greet_script 
 
 ### c) Monta polkua. Tee Flask-ohjelma, jossa on useampi polku. Esim "localhost:5000/foo" näyttää sivun, jolla lukee "Foo" ja "localhost:5000/bar" näyttää sivun, jolla lukee "Bar". Voit käyttää testipalvelinta.
 
-Teen ensin uuden tekstitiedoston komennolla `nano flask_paths.py`, jonne kirjoitan kolme eri endpointtia. ("/") endpoint on testi joka palauttaa test. ("/greet") endpoint palauttaa tervehdyksen ja ("/compliment") palauttaa piristävän kehun. Lisään appiin myös rivin `app.run(debug=True)`, joka mahdollistaa localhostissa testaamisen. 
+Teen ensin uuden tekstitiedoston komennolla `nano flask_paths.py`, jonne kirjoitan kolme eri endpointtia. `("/")` endpoint on testi joka palauttaa test. `("/greet")` endpoint palauttaa tervehdyksen ja `("/compliment")` palauttaa piristävän kehun. Lisään appiin myös rivin `app.run(debug=True)`, joka mahdollistaa localhostissa testaamisen. 
 
 ![image](https://user-images.githubusercontent.com/78149945/135124851-9d0ed531-8b71-4124-a3c8-9c615ddcea7f.png)
 
@@ -42,6 +42,15 @@ Ajan ohjelman komennolla `python3 flask_paths.py` ja tarkistan että jokainen to
 ![image](https://user-images.githubusercontent.com/78149945/135125162-b61c9bf1-e972-4c43-a62f-0046cb41d28b.png)
 
 ![image](https://user-images.githubusercontent.com/78149945/135125205-b5f1fccf-7b24-472b-813c-007d90b8988f.png)
+
+
+### d) Muotti. Tulosta Flaskilla sivu muotista. Voit käyttää testipalvelinta.
+
+Teen ensin uuden hakemiston komennolla `mkdir templates`. Menen hakemiston sisälle ja teen nanolla uuden html tiedoston `greet.html`. Kopioin sinne yksinkertaisen html pohjan jossa on post methodi mikä postaa käyttäjän kirjoittaman syötteen.
+
+![image](https://user-images.githubusercontent.com/78149945/135128517-28137825-a37b-4df0-95a0-3ed1dd3223cb.png)
+
+
 
 
 
