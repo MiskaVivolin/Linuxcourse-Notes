@@ -28,3 +28,21 @@ Kokeilen ajaa skriptin komennolla bash greet_script Miska, jolloin komentorivill
 Kopioin tämänkin skriptin bin hakemistoon komennolla `sudo cp -v greet_script /usr/local/bin` jolloin skriptiä voi kutsua mistä vain hakemistosta millä vain käyttäjällä. Testaan vielä kutsua skriptiä root -hakemistosta ja skripti suoriutuu onnistuneesti.
 
 ![image](https://user-images.githubusercontent.com/78149945/135110163-ba35f968-972b-4d81-8836-778b3f7b4eff.png)
+
+### c) Monta polkua. Tee Flask-ohjelma, jossa on useampi polku. Esim "localhost:5000/foo" näyttää sivun, jolla lukee "Foo" ja "localhost:5000/bar" näyttää sivun, jolla lukee "Bar". Voit käyttää testipalvelinta.
+
+Teen ensin uuden tekstitiedoston komennolla `nano flask_paths.py`, jonne kirjoitan kolme eri endpointtia. ("/") endpoint on testi joka palauttaa test. ("/greet") endpoint palauttaa tervehdyksen ja ("/compliment") palauttaa piristävän kehun. Lisään appiin myös rivin `app.run(debug=True)`, joka mahdollistaa localhostissa testaamisen. 
+
+![image](https://user-images.githubusercontent.com/78149945/135124851-9d0ed531-8b71-4124-a3c8-9c615ddcea7f.png)
+
+Ajan ohjelman komennolla `python3 flask_paths.py` ja tarkistan että jokainen toimii localhostissa.
+
+![image](https://user-images.githubusercontent.com/78149945/135125115-aadff094-e2e8-472f-ad2b-56e39d5e7aa2.png)
+
+![image](https://user-images.githubusercontent.com/78149945/135125162-b61c9bf1-e972-4c43-a62f-0046cb41d28b.png)
+
+![image](https://user-images.githubusercontent.com/78149945/135125205-b5f1fccf-7b24-472b-813c-007d90b8988f.png)
+
+
+
+
