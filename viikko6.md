@@ -50,7 +50,17 @@ Teen ensin uuden hakemiston komennolla `mkdir templates`. Menen hakemiston sisä
 
 ![image](https://user-images.githubusercontent.com/78149945/135128517-28137825-a37b-4df0-95a0-3ed1dd3223cb.png)
 
+Menen hakemiston taaksepäin ja teen uuden python tiedoston komennolla `nano greet.py`. importtaan flaskin, render templaten ja requestin. Asetan `("/")` endpointtiin get ja post metodit ja teen uuden funktion joka hakee greet.html tiedoston jos siinä on request form "side". Lisään appiin myös rivin `app.run(debug=True)`, joka mahdollistaa localhostissa testaamisen. 
 
+![image](https://user-images.githubusercontent.com/78149945/135130337-09e267aa-2bf5-493e-a972-fc11309c9c65.png)
+
+Ajan komennon `python3 greet.py` ja testaan vielä että ohjelma toimii localhostissa.
+
+![image](https://user-images.githubusercontent.com/78149945/135130838-554f0fc0-ca2d-4518-b036-780aaa5cc8b9.png)
+
+Painaessani enteriä sivu lähettää post pyynnön.
+
+![image](https://user-images.githubusercontent.com/78149945/135131174-deb3818a-bbcf-4bca-be70-d1282828eded.png)
 
 
 
