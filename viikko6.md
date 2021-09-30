@@ -21,7 +21,7 @@ Luon `skriptit` hakemistoon uuden tekstitiedoston komennolla `nano greet_script`
 
 ![image](https://user-images.githubusercontent.com/78149945/135109554-c882ae49-86f1-4c27-a8d1-0ea8a52859b7.png)
 
-Kokeilen ajaa skriptin komennolla bash greet_script Miska, jolloin komentoriville tulostuu "Moi miska".
+Kokeilen ajaa skriptin komennolla `bash greet_script Miska`, jolloin komentoriville tulostuu "Moi miska".
 
 ![image](https://user-images.githubusercontent.com/78149945/135109796-8c03909f-950c-409a-ad6b-e4fb6715b284.png)
 
