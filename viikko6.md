@@ -63,5 +63,14 @@ Painaessani enteriä sivu lähettää post pyynnön.
 ![image](https://user-images.githubusercontent.com/78149945/135131174-deb3818a-bbcf-4bca-be70-d1282828eded.png)
 
 
+### Yhteenveto
 
+Pidin tunnin aiheesta kun päästiin kehittelemään yksinkertaista koodia kumminkin ihan uudessa ympäristössä. Linux alkaa tuntumaan jo hauskalta ja suht selkeältä toisin kuin kurssin alussa. Tehtäviin meni noin 4 tuntia aikaa.
 
+### Lähteet
+
+Tero Karvinen. Linux Palvelimet ict4tn021 3016. 16-8-2021. https://terokarvinen.com/2021/linux-server-course-linux-palvelimet-ict4tn021-3016/ Luettu: 28.9.2021
+
+Tero Karvinen. Short HTML5 page. 16-8-2021. https://terokarvinen.com/2012/short-html5-page/ Luettu: 28.9.2021
+
+Linuxhint. 30 Bash Script Examples by Fahmida Yesmin. 2018. https://linuxhint.com/30_bash_script_examples/ Luettu: 28.9.2021
