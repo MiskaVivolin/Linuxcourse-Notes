@@ -6,7 +6,7 @@ Luon `home` hakemistoon uuden hakemiston komennolla `mkdir skriptit` johon teen 
 
 ![image](https://user-images.githubusercontent.com/78149945/135107758-f16af1e2-2d48-429c-b49e-973c6c86a697.png)
 
-Kutsun skriptiä komennolla `bash 1_to_10_script` ja saan komentoriville päivämäärän ja ajan onnistuneesti.
+Kutsun skriptiä komennolla `bash 1_to_10_script` ja saan komentoriville luvut onnistuneesti.
 
 ![image](https://user-images.githubusercontent.com/78149945/135107821-956ad62a-16ff-409f-ac3c-0090c1365b2f.png)
 
