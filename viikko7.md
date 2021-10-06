@@ -1,6 +1,9 @@
 
 # Linux laboratorioharjoitusraportti
 
+
+### Linuxin asennus
+
 Aloitan asennuksen painamalla Oracle virtualbox managerissa `new` kuvaketta. Asetan "name" sarakkeeseen nimen `Miska4000`, "Type" sarakkeeseen `Linux` ja Version sarakkeeseen `Debian 64-bit`.
 
 ![image](https://user-images.githubusercontent.com/78149945/136256320-0ad6a7d3-f171-4212-a7ec-260eb7b66f92.png)
@@ -33,5 +36,10 @@ Debianin asennuttua restarttaan sen.
 ### Palomuurin asennus
 
 Asennan ensin ufw:n komennolla `sudo apt-get install ufw`. Sen jälkeen suoritan komennon `sudo ufw allow 22/tcp`. Lopuksi suoritan komennon `sudo ufw enable` ja käynnistän virtuaalikoneen uudelleen jolloin palomuuri aktivoituu. 
+
+![image](https://user-images.githubusercontent.com/78149945/136269759-905bab62-92f9-4eb5-91ee-ee3a4d76e62e.png)
+
+
+
 
 https://terokarvinen.com/2018/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-8-maanantai-alkukevat-2018-5-op/?fromSearch=laboratorio
