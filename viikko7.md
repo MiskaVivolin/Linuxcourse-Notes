@@ -41,7 +41,7 @@ Asennan ensin ufw:n komennolla `sudo apt-get install ufw`. Sen jälkeen suoritan
 
 ### Etähallintaa
 
-Asennan salt-minionin komennolla `sudo apt-get -y install salt-minion`. Sen jälkeen suoritan komennon `echo -e "master: 172.28.171.13\nid: $(whoami)"|sudo tee -a /etc/salt/minion`. Restarttaan vielä salt minionin komennolla sudo service salt-minion restart.
+Asennan salt-minionin komennolla `sudo apt-get -y install salt-minion`. Sen jälkeen suoritan komennon `echo -e "master: 172.28.171.13\nid: $(whoami)"|sudo tee -a /etc/salt/minion`. Restarttaan vielä salt minionin komennolla `sudo service salt-minion restart`.
 
 
 https://terokarvinen.com/2018/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-8-maanantai-alkukevat-2018-5-op/?fromSearch=laboratorio
