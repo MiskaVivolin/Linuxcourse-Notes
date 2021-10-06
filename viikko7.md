@@ -32,6 +32,6 @@ Debianin asennuttua restarttaan sen.
 
 ### Palomuurin asennus
 
-
+Asennan ensin ufw:n komennolla `sudo apt-get install ufw`. Sen jälkeen suoritan komennon `sudo ufw allow 22/tcp`. Lopuksi suoritan komennon `sudo ufw enable` ja käynnistän virtuaalikoneen uudelleen jolloin palomuuri aktivoituu. 
 
 https://terokarvinen.com/2018/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-8-maanantai-alkukevat-2018-5-op/?fromSearch=laboratorio
