@@ -23,7 +23,14 @@ Virtuaalikoneen käynnistyttyä valitsen "Install Debian" kuvakkeen aloittaaksen
 
 ![image](https://user-images.githubusercontent.com/78149945/136259797-252bc824-3681-45b2-8b9d-40d290bb4ec9.png)
 
-Lopuksi tarkistan että tiedot ovat oikein ja painan `Install`. Odottelen hetken kun Linux asentuu
+Lopuksi tarkistan että tiedot ovat oikein ja painan `Install`. Odottelen hetken kun Debian asentuu.
+
+![image](https://user-images.githubusercontent.com/78149945/136264783-637da2f3-40aa-4465-b8eb-2adf781fb1f1.png)
+
+Debianin asennuttua restarttaan sen. 
+
+
+### Palomuurin asennus
 
 
 
