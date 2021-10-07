@@ -26,6 +26,7 @@ Virtuaalikoneen käynnistyttyä valitsen "Install Debian" kuvakkeen aloittaaksen
 
 ![image](https://user-images.githubusercontent.com/78149945/136259797-252bc824-3681-45b2-8b9d-40d290bb4ec9.png)
 
+
 Lopuksi tarkistan että tiedot ovat oikein ja painan `Install`. Odottelen hetken kun Debian asentuu.
 
 ![image](https://user-images.githubusercontent.com/78149945/136264783-637da2f3-40aa-4465-b8eb-2adf781fb1f1.png)
@@ -49,6 +50,13 @@ Suoritan ensin komennot `sudo apt-get update` ja `sudo apt-get upgrade`. Sen jä
 
 ![image](https://user-images.githubusercontent.com/78149945/136344548-c58592f2-2034-415f-b9b5-47634d1a4190.png)
 
+Luon uuden käyttäjän pekkahurme ja menen hänen kotihakemistoon tekemään uuden `public_html` hakemiston jonne teen public.html tekstitiedoston. Menen osoitteeseen http://localhost/~pekkahurme/ ja saan käyttäjän kotisivut näkyviin.
+
+![image](https://user-images.githubusercontent.com/78149945/136345606-147d3abb-20c7-424b-94c9-4da1cde4f987.png)
+
+Luon uuden käyttäjän ronaldosmith ja menen hänen kotihakemistoon tekemään uuden `public_html` hakemiston jonne teen public.html tekstitiedoston. Menen osoitteeseen http://localhost/~ronaldosmith/ ja saan käyttäjän kotisivut näkyviin.
+
+![image](https://user-images.githubusercontent.com/78149945/136345939-71739a62-98d5-405e-8084-3cda6278d4b1.png)
 
 
 
