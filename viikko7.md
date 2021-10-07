@@ -58,6 +58,20 @@ Luon uuden käyttäjän ronaldosmith ja menen hänen kotihakemistoon tekemään 
 
 ![image](https://user-images.githubusercontent.com/78149945/136345939-71739a62-98d5-405e-8084-3cda6278d4b1.png)
 
+### Koodaajan koti
+
+Teen uuden tiedoston `Helloworld.py` jonne kirjoitan koodin `print(Hello world!)`. suoritan koodin komennolla `python3 helloworld.py` ja saan konsoliin tekstin `Hello world!`
+
+![image](https://user-images.githubusercontent.com/78149945/136347918-2c5eca1a-bcdb-4f79-b127-97e99f899617.png)
+
+Teen uuden tiedoston `Helloworld.js` jonne kirjoitan koodin `console.log(Hello world!)`. Asennan noden komennolla `sudo apt install nodejs` ja suoritan koodin komennolla `node helloworld.js`, jolloin saan konsoliin tekstin `Hello world!`.
+
+![image](https://user-images.githubusercontent.com/78149945/136348157-eefa0338-727e-4a40-a5ed-35fde57ab6ce.png)
+
+
+
+
+
 
 
 https://terokarvinen.com/2018/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-8-maanantai-alkukevat-2018-5-op/?fromSearch=laboratorio
