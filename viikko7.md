@@ -68,6 +68,13 @@ Teen uuden tiedoston `Helloworld.js` jonne kirjoitan koodin `console.log(Hello w
 
 ![image](https://user-images.githubusercontent.com/78149945/136348157-eefa0338-727e-4a40-a5ed-35fde57ab6ce.png)
 
+### Etusivun uutinen
+
+Asennan python flaskin komennolla `sudo apt-get -y install python3-flask`. Teen ensin uuden tekstitiedoston komennolla nano etusivu.py, jonne kirjoitan endpointtiin ("/") tervehdyksen. Lisään appiin myös rivin app.run(debug=True), joka mahdollistaa localhostissa testaamisen. localhostiin mentäessä saan tervehdyksen.
+
+![image](https://user-images.githubusercontent.com/78149945/136352942-33e1e4e5-2a3e-4574-8daa-7b8d5ae0cc65.png)
+
+![image](https://user-images.githubusercontent.com/78149945/136352067-378e7a60-010f-4bbe-b647-907114ef5432.png)
 
 
 
