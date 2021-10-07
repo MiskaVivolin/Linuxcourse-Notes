@@ -43,5 +43,13 @@ Asennan ensin ufw:n komennolla `sudo apt-get install ufw`. Sen jälkeen suoritan
 
 Asennan salt-minionin komennolla `sudo apt-get -y install salt-minion`. Sen jälkeen suoritan komennon `echo -e "master: 172.28.171.13\nid: $(whoami)"|sudo tee -a /etc/salt/minion`. Restarttaan vielä salt minionin komennolla `sudo service salt-minion restart`.
 
+### Työntekijät
+
+Suoritan ensin komennot `sudo apt-get update` ja `sudo apt-get upgrade`. Sen jälkeen asennan apachen komennolla `sudo apt-get install apache2` ja laitan sen käyntiin `sudo systemctl start apache2` komennolla. Lisään uuden käyttäjän sudo adduser jormamahkyla ja asetan hyvän salasanan. Menen käyttäjän jormamahkyla kotihakemistoon ja teen uuden hakemiston `public_html`, minne luon tekstitiedoston `public.html`, jonne kirjoitan `jormamahkyla.` Suoritan vielä komennon `sudo a2enmod userdir` ja restarttaan apachen komennolla `sudo systemctl restart apache2`. Menen osoitteeseen http://localhost/~jormamahkyla/ ja saan käyttäjän kotisivut näkyviin.
+
+![image](https://user-images.githubusercontent.com/78149945/136344548-c58592f2-2034-415f-b9b5-47634d1a4190.png)
+
+
+
 
 https://terokarvinen.com/2018/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-8-maanantai-alkukevat-2018-5-op/?fromSearch=laboratorio
